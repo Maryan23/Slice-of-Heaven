@@ -3,7 +3,7 @@
 #### Last update made on:22/09/2021
 #### By Maryann Mwikali
 ## Description
-This website is meant to allow users to browse our pizza menu, make an order based on their preferences(which topping the like, how thick or thin their crust should be and also the size of the menu.)Clients should also be able to choose between having their pizza delivered or handpicked physically. After placing their order and choosing their mode of pick up the website should be able to inform the user of the total amount payable.
+This website is meant to allow users to browse our pizza menu, make an order based on their preferences(which topping the like, how thick or thin their crust should be and also the size of the pizza.)Clients should also be able to choose between having their pizza delivered or handpicked physically. After placing their order and choosing their mode of pick up the website should be able to inform the user of the total amount payable.
 ## Setup/Installation Requirements
 * On your terminal navigate to the folder where you would love to have the project
 * Then enter git clone https://github.com/Maryan23/Slice-of-Heaven.git
