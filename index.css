@@ -1,0 +1,33 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+hr{
+    margin-left:30px;
+}
+.bar{
+    background-color:#39762F;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    font-size:40px;
+}
+.btext{
+    font-size:20px;
+    color:white;
+    margin-right:350px;
+}
+.pizzquo{
+    display:flex;
+    justify-content: space-between;
+}
+#hpizz{
+    height:600px;
+    width:700px;
+}
+#pizztext{
+    margin-top: 250px;
+    margin-right:80px;
+    margin-left:80px;
+    font-weight: 800;
+}
