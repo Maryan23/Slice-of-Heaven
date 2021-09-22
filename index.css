@@ -1,6 +1,7 @@
 nav{
     display:flex;
     justify-content: space-around;
+    overflow:hidden;
 }
 .bar{
     background-color:#39762F;
@@ -63,6 +64,47 @@ h5{
     width:400px;
     margin-right: 50px;
 }
-/* .address{
-    display:none;
-} */
+.socials{
+    display:flex;
+    flex-direction: column;
+    margin-left:50px;
+}
+#media{
+    height:100px;
+    width:100px;
+}
+.vl{
+    border-left: 6px solid green;
+    height: 350px;
+    margin-left:250px;
+    margin-top:-350px;
+}
+.message{
+    float:right;
+    margin-top: -350px;
+    margin-right:50px;
+}
+#cmessage{
+    color:solid green;
+    font-size:30px;
+    font-weight:500;
+}
+#vl2{
+    border-right: 6px solid green;
+    height:550px;
+    margin-right:400px;
+    margin-top:-420px;
+}
+.tagline{
+    display:inline-block;
+    text-align:center;
+    margin-left:380px;
+    margin-top:-500px;
+}
+#tag{
+    font-weight:500;
+    font-size:40px;
+}
+#send{
+    background-color: solid green;;
+}
