@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav>
-        <a href="Order Now">ORDER NOW</a>
+        <a href="#OrderNow">ORDER NOW</a>
         <a href="Menu">MENU</a>
         <a href="Happy Hour">CONTACT US</a>
     </nav>
@@ -82,6 +82,95 @@
                   </div>
                 </div>
               </div>
+        </div>
+    </div><br>
+    <div class="OrderNow">
+        <p id="menu">ORDER NOW</p>
+        <div class="ordadd">
+        <div class="order">
+            <p id="customize">Customize your pizza</p>
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div><br>
+            <div class="col-md-12">
+                <input type="text" class="form-control" placeholder="email@gmail/yahoo.com" aria-label="email">
+              </div>
+            <div class="col-md-12">
+                <label for="inputsize" class="form-label"></label>
+                <select id="inputsize" class="form-select">
+                    <option selected>Choose pizza size</option>
+                    <option>Small @ Ksh.500</option>
+                    <option>Medium @ Ksh.900</option>
+                    <option>Large @ Ksh.1200</option>
+                  </select>
+            </div>
+            <div class="col-md-12">
+                <label for="inputcrust" class="form-label"></label>
+                <select id="inputcrust" class="form-select">
+                    <option selected>Select crust</option>
+                    <option>Wheat thin crust @ Ksh.150</option>
+                    <option>Classic Hand Tossed crust @ Ksh.120</option>
+                    <option>Cheese Burst crust @ Ksh.250</option>
+                    <option>Thin crust @Ksh.100</option>
+                  </select>
+            </div>
+            <div class="col-md-12">
+                <label for="inputtoppings" class="form-label"></label>
+                <select id="inputtoppings" class="form-select">
+                    <option selected>Choose toppings</option>
+                    <option>Pepperoni @ Ksh.150</option>
+                    <option>Mushroom @ Ksh.100</option>   
+                    <option >Extra cheese @ Ksh.120</option>
+                    <option >Sausage @ Ksh.150</option>
+                    <option> Extra Onions @ Ksh.50</option>
+                    <option>Black olives @ Ksh.80</option>
+                    <option>Green pepper @ Ksh.50</option>
+                    <option>Fresh garlic @ Ksh.50</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label for="inputsize" class="form-label"></label>
+                <select id="inputsize" class="form-select">
+                    <option selected>Pick a delivery option</option>
+                    <option>Hand-picked</option>
+                    <option>Remote delivery</option>
+                  </select>
+            </div><br>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Order Now</button>
+              </div>
+        </div>
+        <div class="address">
+            <p id="customize">Enter your address</p>
+        <form class="row g-3">
+            <div class="col-md-12">
+                <label for="inputCity" class="form-label">City</label>
+                <select id="inputCity" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Kisumu</option>
+                    <option>Nairobi</option>
+                    <option>Mombasa</option>
+                    <option>Nakuru</option>
+                  </select>
+              </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Donholm,Phase 5">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Order Now</button>
+            </div>
+        </form>
+        </div>
         </div>
     </div>
 </body>
