@@ -1,14 +1,6 @@
-nav{
-    display:flex;
-    justify-content: space-around;
-    overflow:hidden;
-}
-.bar{
+.container{
     background-color:#39762F;
     color:white;
-    display:flex;
-    justify-content: space-between;
-    font-size:40px;
 }
 .name{
     font-weight:900;

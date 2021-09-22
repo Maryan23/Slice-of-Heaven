@@ -10,16 +10,34 @@
     <title>Slice of Heaven</title>
 </head>
 <body>
-    <nav>
+    <!-- <nav>
         <a href="#OrderNow">ORDER NOW</a>
-        <a href="Menu">MENU</a>
-        <a href="contact">CONTACT US</a>
-    </nav>
-    <div class="home">
-        <div class="bar">
-            <p><span class="name">SLICE OF HEAVEN<hr></span></p>
-            <p><span class="btext"><a href="zero">ZERO CONTACT DELIVERY/PICK-UP</a></span></p>
+        <a href="#Menu">MENU</a>
+        <a href="#contacts">CONTACT US</a>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-white py-3 fixed-top">
+        <div class="container">
+
+           <div class="navbar-brand">SLICE OF HEAVEN</div>
+           <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navmenu">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+    
+           <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#OrderNow" class="nav-link">ORDER NOW</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Menu" class="nav-link">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
         </div>
+    </nav>
         <div class="pizzquo">
             <img id ="hpizz" src="assets/pizza.jpeg">
             <p id="pizztext"><em>"ANYONE WHO SAYS THAT MONEY CANNOT BUY HAPPINESS HAS CLEARLY NEVER SPENT THEIR MONEY ON PIZZA."</em></p>
@@ -132,6 +150,9 @@
                     <option>Green pepper @ Ksh.50</option>
                     <option>Fresh garlic @ Ksh.50</option>
                 </select>
+            </div><br>
+            <div class="col-md-12">
+                <input type="number" class="form-control" placeholder="Number of pizzas..." aria-label="number">
             </div>
             <div class="col-md-12">
                 <label for="inputsize" class="form-label"></label>
