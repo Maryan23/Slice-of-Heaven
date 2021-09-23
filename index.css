@@ -2,13 +2,9 @@
     background-color:#39762F;
     color:white;
 }
-.name{
+#name{
     font-weight:900;
-}
-.btext{
-    font-size:20px;
-    color:white;
-    margin-right:350px;
+    font-size: 50px;
 }
 .pizzquo{
     display:flex;
